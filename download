@@ -1,0 +1,84 @@
+## Ignore Visual Studio build results
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+## Ignore Visual Studio temporary files, caches, etc.
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore Rider / JetBrains IDE stuff
+.idea/
+*.iml
+
+## Ignore backup / crash files
+*.bak
+*.swp
+*.tmp
+
+## Ignore compiled binaries
+*.dll
+*.exe
+*.pdb
+*.app
+*.out
+*.apk
+*.msi
+
+## Ignore logs
+*.log
+
+## Ignore NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+## Ignore test results
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+
+## Ignore build artifacts
+*.obj
+*.o
+*.so
+*.a
+*.lib
+*.exp
+*.idb
+*.ipdb
+*.iobj
+
+## Ignore generated files
+*.cache
+*.db
+*.db-shm
+*.db-wal
+
+## Ignore temporary lock files
+~$*
+*.lock.json
+
+## Ignore publish profiles
+Properties/PublishProfiles/
+
+## Ignore local configuration
+appsettings.*.json
+secrets.json
+
+## Ignore ReSharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+## Ignore Visual Studio profiler
+*.psess
